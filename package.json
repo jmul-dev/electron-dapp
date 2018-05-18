@@ -1,0 +1,18 @@
+{
+	"name": "electron-dapp",
+	"version": "0.0.1",
+	"description": "Electron-based dApp",
+	"main": "main.js",
+	"author": "Johan Mulyono",
+	"license": "MIT",
+	"scripts": {
+		"start": "electron .",
+		"precommit": "pretty-quick --staged"
+	},
+	"devDependencies": {
+		"electron": "^2.0.1",
+		"husky": "^0.14.3",
+		"prettier": "^1.12.1",
+		"pretty-quick": "^1.4.1"
+	}
+}
